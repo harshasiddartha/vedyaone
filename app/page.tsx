@@ -2,7 +2,7 @@ import Navigation from "./components/Navigation";
 import Hero from "./components/Hero";
 import About from "./components/About";
 import Services from "./components/Services";
-import Statistics from "./components/Statistics";
+
 import WhyChooseUs from "./components/WhyChooseUs";
 import Industries from "./components/Industries";
 import Process from "./components/Process";
@@ -16,7 +16,7 @@ export default function Home() {
       <Hero />
       <About />
       <Services />
-      <Statistics />
+      {/* <Statistics /> */}
       <WhyChooseUs />
       <Industries />
       <Process />

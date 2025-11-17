@@ -68,9 +68,17 @@ export default function Services() {
       
       <div className="container mx-auto px-6 lg:px-8 relative z-10">
         <div className="max-w-4xl mx-auto text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-4 uppercase tracking-wide">
-            What Do We Offer
+          <div className="mb-6">
+            <Badge variant="secondary" className="text-sm px-4 py-1.5 bg-yellow-500/20 text-yellow-400 border-yellow-500/30 uppercase tracking-wide">
+              Our Core Services
+            </Badge>
+          </div>
+          <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-6 uppercase tracking-wide leading-tight">
+            End-to-end talent and workforce solutions.
           </h2>
+          <p className="text-lg md:text-xl text-slate-600 leading-relaxed max-w-3xl mx-auto">
+            From permanent and project-based hiring to IT solutions and transformation support, we provide the flexibility and precision modern organizations need.
+          </p>
         </div>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-7xl mx-auto">
           {services.map((service, index) => (

@@ -138,7 +138,7 @@ export default function ServicesDetail() {
                     <div className="flex items-start justify-between gap-4">
                       <CardTitle className="text-2xl md:text-3xl font-bold text-slate-900 leading-tight">
                         {service.title}
-                      </CardTitle>
+                    </CardTitle>
                     </div>
                   </CardHeader>
                   <CardContent className="p-6 space-y-6">
@@ -149,8 +149,8 @@ export default function ServicesDetail() {
                     {service.subDescription && (
                       <div className="p-4 bg-blue-50 rounded-lg border-l-4 border-blue-500">
                         <CardDescription className="text-base text-slate-700">
-                          {service.subDescription}
-                        </CardDescription>
+                        {service.subDescription}
+                      </CardDescription>
                       </div>
                     )}
 
@@ -160,7 +160,7 @@ export default function ServicesDetail() {
                           <Code className="w-5 h-5 text-teal-600" />
                           <h4 className="text-lg font-bold text-slate-900">
                             Expertise Includes
-                          </h4>
+                        </h4>
                         </div>
                         <ul className="space-y-2.5">
                           {service.expertise.map((item, idx) => (
@@ -179,7 +179,7 @@ export default function ServicesDetail() {
                           <Building2 className="w-5 h-5 text-blue-600" />
                           <h4 className="text-lg font-bold text-slate-900">
                             Engagement Models
-                          </h4>
+                        </h4>
                         </div>
                         <ul className="space-y-2.5">
                           {service.engagementModels.map((item, idx) => (
@@ -198,7 +198,7 @@ export default function ServicesDetail() {
                           <CheckCircle2 className="w-5 h-5 text-green-600" />
                           <h4 className="text-lg font-bold text-slate-900">
                             Value We Deliver
-                          </h4>
+                        </h4>
                         </div>
                         <ul className="space-y-2.5">
                           {service.value.map((item, idx) => (
@@ -217,7 +217,7 @@ export default function ServicesDetail() {
                           <Server className="w-5 h-5 text-purple-600" />
                           <h4 className="text-lg font-bold text-slate-900">
                             Why Clients Choose Our IT Projects
-                          </h4>
+                        </h4>
                         </div>
                         <ul className="space-y-2.5">
                           {service.whyChoose.map((item, idx) => (

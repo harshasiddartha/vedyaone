@@ -103,8 +103,8 @@ export default function Industries() {
                   </div>
                   <div className="absolute bottom-0 left-0 right-0 p-3">
                     <span className="text-white font-bold text-base drop-shadow-lg">
-                      {industry.name}
-                    </span>
+                    {industry.name}
+                  </span>
                   </div>
                 </div>
               </Card>

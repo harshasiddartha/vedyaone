@@ -46,11 +46,11 @@ export default function Impact() {
           {/* Main Content */}
           <div className="text-center mb-10">
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6 leading-tight">
-              Because your people strategy is your business strategy.
-            </h2>
+            Because your people strategy is your business strategy.
+          </h2>
             <p className="text-lg md:text-xl lg:text-2xl text-slate-200 mb-10 leading-relaxed max-w-4xl mx-auto">
-              We help organizations move beyond hiring to workforce enablement — building teams that adapt, learn, and lead in a changing world.
-            </p>
+            We help organizations move beyond hiring to workforce enablement — building teams that adapt, learn, and lead in a changing world.
+          </p>
           </div>
 
           {/* Visual Elements - Stats or Features */}
@@ -67,7 +67,7 @@ export default function Impact() {
                 <span>Talk to Our Experts</span>
                 <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
               </Link>
-            </Button>
+          </Button>
           </div>
         </div>
       </div>
