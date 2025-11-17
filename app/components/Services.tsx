@@ -102,7 +102,7 @@ export default function Services() {
                 <div className="pt-3 border-t border-slate-700">
                   <p className="text-xs text-slate-400 mb-1">For Enquiry:</p>
                   <a href="mailto:contact@vedyaone.com" className="text-yellow-400 hover:text-yellow-300 text-xs font-medium">
-                    contact@vedyaone.com
+                  bd@vedyaone.com 
                   </a>
                 </div>
               </div>

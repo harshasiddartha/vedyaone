@@ -112,7 +112,7 @@ export default function ProcessDetail() {
                       </p>
                       <div className="ml-14 p-4 bg-slate-50 rounded border border-teal-100">
                         <p className="text-slate-700">
-                          <span className="font-semibold">Outcome:</span> {step.outcome}
+                          <span className="font-semibold"></span> {step.outcome}
                         </p>
                       </div>
                     </CardContent>
