@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Building2, Mail, Phone, MapPin, Linkedin, Twitter, Youtube, Instagram, Copyright } from "lucide-react";
+import { Building2, Mail, Phone, MapPin, Linkedin, Twitter, Youtube, Instagram, Copyright, Facebook, Pin } from "lucide-react";
 
 export default function Footer() {
   return (
@@ -85,17 +85,17 @@ export default function Footer() {
 
         {/* Social Links */}
         <div className="flex justify-center gap-6 mb-8">
-          <a href="https://linkedin.com/company/vedyaone" target="_blank" rel="noopener noreferrer" className="text-slate-300 hover:text-yellow-400 transition-colors p-2 rounded-lg hover:bg-slate-800">
+          <a href="https://www.facebook.com/profile.php?id=61583901034374" target="_blank" rel="noopener noreferrer" className="text-slate-300 hover:text-yellow-400 transition-colors p-2 rounded-lg hover:bg-slate-800">
+            <Facebook className="w-5 h-5" />
+          </a>
+          <a href="https://www.instagram.com/vedya_consulting_technologies" target="_blank" rel="noopener noreferrer" className="text-slate-300 hover:text-yellow-400 transition-colors p-2 rounded-lg hover:bg-slate-800">
+            <Instagram className="w-5 h-5" />
+          </a>
+          <a href="https://www.linkedin.com/company/vedya-consulting-technologies" target="_blank" rel="noopener noreferrer" className="text-slate-300 hover:text-yellow-400 transition-colors p-2 rounded-lg hover:bg-slate-800">
             <Linkedin className="w-5 h-5" />
           </a>
-          <a href="https://twitter.com/vedyaone" target="_blank" rel="noopener noreferrer" className="text-slate-300 hover:text-yellow-400 transition-colors p-2 rounded-lg hover:bg-slate-800">
-            <Twitter className="w-5 h-5" />
-          </a>
-          <a href="https://youtube.com/@vedyaone" target="_blank" rel="noopener noreferrer" className="text-slate-300 hover:text-yellow-400 transition-colors p-2 rounded-lg hover:bg-slate-800">
-            <Youtube className="w-5 h-5" />
-          </a>
-          <a href="https://instagram.com/vedyaone" target="_blank" rel="noopener noreferrer" className="text-slate-300 hover:text-yellow-400 transition-colors p-2 rounded-lg hover:bg-slate-800">
-            <Instagram className="w-5 h-5" />
+          <a href="https://www.pinterest.com/vedyaone01" target="_blank" rel="noopener noreferrer" className="text-slate-300 hover:text-yellow-400 transition-colors p-2 rounded-lg hover:bg-slate-800">
+            <Pin className="w-5 h-5" />
           </a>
         </div>
 
