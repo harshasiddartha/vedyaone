@@ -65,12 +65,12 @@ export default function Footer() {
             <ul className="space-y-3">
               <li className="flex items-start gap-3">
                 <MapPin className="w-4 h-4 text-yellow-400 mt-0.5 flex-shrink-0" />
-                <span className="text-slate-300 text-sm">India HQ: [City, State]</span>
+                <span className="text-slate-300 text-sm">Flat no-314, Gayathri residency, chaitanya enclave, manikonda jagir puppalaguda, Rangareddy, telangana.</span>
               </li>
               <li className="flex items-center gap-3">
                 <Mail className="w-4 h-4 text-yellow-400 flex-shrink-0" />
-                <a href="mailto:contact@vedyaone.com" className="text-slate-300 hover:text-yellow-400 transition-colors text-sm">
-                  contact@vedyaone.com
+                <a href="mailto:Bd@vedyaone.com" className="text-slate-300 hover:text-yellow-400 transition-colors text-sm">
+                  bd@vedyaone.com
                 </a>
               </li>
               <li className="flex items-center gap-3">

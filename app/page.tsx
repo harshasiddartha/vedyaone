@@ -8,12 +8,13 @@ import Industries from "./components/Industries";
 import Process from "./components/Process";
 import Impact from "./components/Impact";
 import Footer from "./components/Footer";
-
+import Marquee from "./components/Marquee";
 export default function Home() {
   return (
     <main className="min-h-screen">
       <Navigation />
       <Hero />
+      <Marquee />
       <About />
       <Services />
       {/* <Statistics /> */}
