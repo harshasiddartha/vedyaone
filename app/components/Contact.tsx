@@ -54,19 +54,19 @@ export default function Contact() {
     {
       icon: Mail,
       label: "Email",
-      value: "contact@vedyaone.com",
-      href: "mailto:contact@vedyaone.com",
+      value: "bd@vedyaone.com",
+      href: "mailto:bd@vedyaone.com",
     },
     {
       icon: Phone,
       label: "Phone",
-      value: "+91 XXX XXX XXXX",
-      href: "tel:+911234567890",
+      value: "+91 8977372266",
+      href: "tel:+918977372266",
     },
     {
       icon: MapPin,
       label: "Location",
-      value: "India HQ",
+      value: "Flat no-314, Gayathri residency, chaitanya enclave, manikonda jagir puppalaguda, Rangareddy, telangana.",
       href: "#",
     },
   ];
