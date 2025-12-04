@@ -8,12 +8,16 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-8 pb-8 border-b border-slate-700">
           {/* Company Info */}
           <div>
-            <div className="flex items-center gap-2 mb-4">
-              <div className="bg-yellow-500 text-slate-900 rounded-lg p-1.5 font-bold text-lg shadow-md">
-                V
+            <Link href="/" className="flex items-center gap-3 group">
+              <div className="">
+                <img 
+                  src="/logo2.png" 
+                  alt="Vedya Logo"
+                  className="w-38 h-18 object-cover"
+                />
               </div>
-              <span className="text-xl font-bold uppercase tracking-wide">vedyaone</span>
-            </div>
+        
+            </Link>
             <p className="text-slate-300 text-sm mb-4 leading-relaxed">
               Your partner in building future-ready workforces through talent enablement and workforce solutions.
             </p>
