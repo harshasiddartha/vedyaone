@@ -57,29 +57,30 @@ export default function Navigation() {
     <nav
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
         isScrolled || !isHomePage
-          ? "bg-slate-800/95 backdrop-blur-md shadow-lg border-b border-slate-700/50"
-          : "bg-slate-800/95"
+          ? "bg-white backdrop-blur-md shadow-lg border-b border-slate-700/50"
+          : "bg-white"
       }`}
     >
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-16 md:h-20">
+      <div className="container mx-auto ">
+        <div className="flex items-center justify-between h-20 ">
           {/* Logo/Brand */}
           <Link 
             href="/" 
             className="flex items-center gap-3 group"
           >
-            <div className="relative">
-              <div className="absolute inset-0 bg-gradient-to-br from-slate-900 to-slate-700 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300 blur-sm"></div>
-              <div className="relative bg-gradient-to-br from-slate-900 to-slate-700 text-white rounded-lg p-2 font-bold text-lg md:text-xl shadow-md group-hover:shadow-xl transition-all duration-300 group-hover:scale-105">
-                V
-              </div>
+            <div className="">
+              <div className=" "></div>
+              <img 
+                src="/logo2.png" 
+                alt="Vedya Logo"
+                className="      w-30 h-30 object-cover pb-10 mt-13"
+              />
             </div>
-            <div className="flex flex-col">
+            {/* <div className="flex flex-col">
               <span className="text-xl md:text-2xl font-bold text-white uppercase tracking-wide">
                 vedyaone
               </span>
-              
-            </div>
+            </div> */}
           </Link>
           
           {/* Desktop Navigation */}
@@ -88,7 +89,7 @@ export default function Navigation() {
               <Link
                 key={link.href}
                 href={link.href}
-                className={`relative px-4 py-2 rounded-lg text-white hover:text-yellow-400 font-medium transition-all duration-300 group/item uppercase text-sm ${
+                className={`relative px-4 py-2 rounded-lg text-black hover:text-yellow-400 font-medium transition-all duration-300 group/item uppercase text-sm ${
                   pathname === link.href || (link.href === "/contact" && pathname === "/contact")
                     ? "text-yellow-400"
                     : ""
