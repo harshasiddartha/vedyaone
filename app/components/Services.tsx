@@ -8,49 +8,58 @@ import { ArrowRight, TrendingUp } from "lucide-react";
 export default function Services() {
   const services = [
     {
-      title: "IT Recruitment & Digital Talent Solutions",
-      description: "Build high-performance digital teams across software, cloud, data, and emerging tech.",
-      image: "https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=600&q=80",
+      title: "Web Development",
+      description: "Modern, responsive websites and web apps tailored to your business goals.",
+      image: "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&q=80",
       link: "/services",
-      linkText: "Explore IT Recruitment",
+      linkText: "Explore Web Development",
       badge: "Popular",
       badgeVariant: "default" as const,
     },
     {
-      title: "Non-IT Recruitment & Industry Talent Solutions",
-      description: "Find skilled professionals across manufacturing, finance, healthcare, retail, and more.",
-      image: "https://images.unsplash.com/photo-1552664730-d307ca884978?w=600&q=80",
+      title: "Video Editing",
+      description: "Professional video editing services to craft compelling stories and impactful messages.",
+      image: "https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?w=600&q=80",
       link: "/services",
-      linkText: "Explore Non-IT Recruitment",
+      linkText: "Discover Video Editing",
       badge: "New",
       badgeVariant: "secondary" as const,
     },
     {
-      title: "Staffing Services",
-      description: "Contract, temporary, and permanent models designed to scale your workforce with confidence.",
-      image: "https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=600&q=80",
+      title: "Digital Marketing",
+      description: "Digital marketing strategies to grow your brand, reach, and conversions.",
+      image: "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=600&q=80",
       link: "/services",
-      linkText: "View Staffing Models",
+      linkText: "View Marketing Solutions",
       badge: "Flexible",
       badgeVariant: "outline" as const,
     },
     {
-      title: "Campus Recruitment",
-      description: "Bridge the gap between academia and industry by hiring job-ready graduates.",
-      image: "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=600&q=80",
+      title: "Graphic Design",
+      description: "Creative visuals, branding, and design assets that communicate your story.",
+      image: "https://images.unsplash.com/photo-1503602642458-232111445657?w=600&q=80",
       link: "/services",
       linkText: "Learn More",
       badge: "Growing",
       badgeVariant: "secondary" as const,
     },
     {
-      title: "IT Projects & Technology Services",
-      description: "From application development to managed services, we deliver technology that supports your business growth.",
-      image: "https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=600&q=80",
+      title: "UI/UX Design",
+      description: "User-centered interfaces that are intuitive, beautiful, and conversion-focused.",
+      image: "https://images.unsplash.com/photo-1553877522-43269d4ea984?w=600&q=80",
       link: "/services",
-      linkText: "Explore IT Projects",
+      linkText: "Explore UI/UX Design",
       badge: "Expert",
       badgeVariant: "default" as const,
+    },
+    {
+      title: "Mobile Application",
+      description: "High-performance mobile apps for iOS and Android that keep your users engaged.",
+      image: "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=600&q=80",
+      link: "/services",
+      linkText: "Explore Mobile Apps",
+      badge: "Featured",
+      badgeVariant: "outline" as const,
     },
   ];
 
@@ -70,14 +79,14 @@ export default function Services() {
         <div className="max-w-4xl mx-auto text-center mb-12">
           <div className="mb-6">
             <Badge variant="secondary" className="text-sm px-4 py-1.5 bg-yellow-500/20 text-yellow-400 border-yellow-500/30 uppercase tracking-wide">
-              Our Core Services
+              Our Services
             </Badge>
           </div>
           <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-6 uppercase tracking-wide leading-tight">
-            End-to-end talent and workforce solutions.
+            Digital solutions for your growing business.
           </h2>
           <p className="text-lg md:text-xl text-slate-600 leading-relaxed max-w-3xl mx-auto">
-            From permanent and project-based hiring to IT solutions and transformation support, we provide the flexibility and precision modern organizations need.
+            From websites and custom software to branding, design, and mobile apps, we help you build a strong digital presence end to end.
           </p>
         </div>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-7xl mx-auto">
